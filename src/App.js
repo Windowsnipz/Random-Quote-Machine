@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import User from './User';
 
 function App() {
   return (
     <div className="App">
+      <User name="Noah S" message="lol noobs"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
