@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import User from './User';
-import Counter from './Counter';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Navbar />
       
     </div>
   );
