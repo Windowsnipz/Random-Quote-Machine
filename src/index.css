@@ -90,16 +90,6 @@ code {
   }
 }
 
-/* Main */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  padding-top: 10vh;
-  background: var(--gray2);
-}
-
 /* Section class*/
 .section {
   width: 75%;
