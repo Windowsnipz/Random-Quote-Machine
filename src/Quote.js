@@ -11,7 +11,7 @@ class Quote extends Component {
 
     render() {
         return (
-            <div className="section">
+            <div className="quote-box">
                 <h1>{this.state.quote}</h1>
                 <h5>- {this.state.author}</h5>
                 <div id="input-wrapper">
