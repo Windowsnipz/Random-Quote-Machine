@@ -96,7 +96,7 @@ code {
   border-radius: 30px;
   background-color: var(--gray1);
   scroll-margin-top: 10vh; /* Ensures correct scrolling from the navbar */
-  margin-top: 0; /* margin below navbar, removed for React*/
+  margin-top: 130px /* margin below navbar, removed for React*/
 }
 
 
