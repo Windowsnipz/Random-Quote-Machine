@@ -100,7 +100,7 @@ code {
 }
 
 .section {
-  margin-top: 50px; /* margin below navbar */
+  margin-top: 0; /* margin below navbar, removed for React*/
 }
 
 /* Input-wrapper */
