@@ -97,11 +97,9 @@ code {
   border-radius: 30px;
   background-color: var(--gray1);
   scroll-margin-top: 10vh; /* Ensures correct scrolling from the navbar */
-}
-
-.section {
   margin-top: 0; /* margin below navbar, removed for React*/
 }
+
 
 /* Input-wrapper */
 #input-wrapper {
