@@ -3,8 +3,8 @@ import { Component } from "react"
 class Quote extends Component {
 
     state = {
-        quote: '',
-        author: ''
+        quote: 'Quote text here :)',
+        author: 'Noah Strickland'
     }
 
 
@@ -12,7 +12,8 @@ class Quote extends Component {
     render() {
         return (
             <div className="section">
-                <h1>Quote text here :)</h1>
+                <h1>{this.state.quote}</h1>
+                <h5>- {this.state.author}</h5>
                 <div id="input-wrapper">
                     <button id="quote-btn">New Quote</button>
                 </div>
