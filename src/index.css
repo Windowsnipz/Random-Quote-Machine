@@ -115,7 +115,7 @@ code {
   padding: 10px 0;
 }
 
-#new-quote {
+.btn {
   display: block;
   margin: 5px auto;
   padding: 8px;
@@ -129,14 +129,14 @@ code {
   transition: color 0.2s, background-color 0.2s;
 }
 
-#new-quote:hover {
+.btn:hover {
   cursor: pointer;
   color: var(--gray1);
   background-color: var(--blue1);
   transition: color 0.2s, background-color 0.2s;
 }
 
-#new-quote:active {
+.btn:active {
   color: var(--orange1);
   background-color: var(--orange1);
 }
