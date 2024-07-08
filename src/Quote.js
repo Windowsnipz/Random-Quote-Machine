@@ -15,7 +15,7 @@ class Quote extends Component {
                 <h1 id="text">{this.state.quote}</h1>
                 <h5 id="author">- {this.state.author}</h5>
                 <div id="input-wrapper">
-                    <button id="quote-btn">New Quote</button>
+                    <button id="new-quote">New Quote</button>
                 </div>
             </div>
         );
