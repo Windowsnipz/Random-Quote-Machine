@@ -12,9 +12,9 @@ class Quote extends Component {
     render() {
         return (
             <div className="section">
-                <h1>Generate a random quote from Kanye West!</h1>
+                <h1>Quote text here :)</h1>
                 <div id="input-wrapper">
-                    <button id="quote-btn">What's up Kanye?</button>
+                    <button id="quote-btn">New Quote</button>
                 </div>
             </div>
         );
