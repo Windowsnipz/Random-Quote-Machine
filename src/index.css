@@ -92,7 +92,7 @@ code {
   max-width: 900px;
   color: var(--blue1);
   text-align: center;
-  padding: 20px 0;
+  padding: 20px ;
   border-radius: 30px;
   background-color: var(--gray1);
   scroll-margin-top: 10vh; /* Ensures correct scrolling from the navbar */
@@ -147,8 +147,10 @@ code {
 
 /* Footer */
 footer {
-
+  position: absolute;
   width: 100%;
+  bottom: 0;
+  
   color: var(--blue1);
   font-size: smaller;
   text-align: center;

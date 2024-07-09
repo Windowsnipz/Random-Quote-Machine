@@ -15,8 +15,8 @@ class Quote extends Component {
                 <h1 id="text">{this.state.quote}</h1>
                 <h5 id="author">- {this.state.author}</h5>
                 <div id="input-wrapper">
-                    <button id="new-quote" class="btn">New Quote</button>
-                    <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote"><button class="btn">Tweet!</button></a>
+                    <button id="new-quote" className="btn">New Quote</button>
+                    <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote"><button className="btn">Tweet!</button></a>
                 </div>
             </div>
         );
