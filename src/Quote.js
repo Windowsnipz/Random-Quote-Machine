@@ -42,7 +42,9 @@ class Quote extends Component {
                 <h5 id="author">- {this.state.author}</h5>
                 <div id="input-wrapper">
                     <button id="new-quote" className="btn" onClick={this.getQuote}>New Quote</button>
-                    <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote"><button className="btn">Tweet!</button></a>
+                    <a href={"https://twitter.com/intent/tweet?text=" + encodeURIComponent(this.state.quote)} target="_blank" id="tweet-quote">
+                        <button className="btn">Tweet!</button>
+                    </a>
                 </div>
             </div>
         );
