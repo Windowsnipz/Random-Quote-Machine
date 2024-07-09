@@ -7,6 +7,10 @@ class Quote extends Component {
         author: 'Noah Strickland'
     }
 
+    getQuote() {
+
+    }
+
 
 
     render() {
@@ -15,7 +19,7 @@ class Quote extends Component {
                 <h1 id="text">{this.state.quote}</h1>
                 <h5 id="author">- {this.state.author}</h5>
                 <div id="input-wrapper">
-                    <button id="new-quote" className="btn">New Quote</button>
+                    <button id="new-quote" className="btn" onClick={this.getQuote}>New Quote</button>
                     <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote"><button className="btn">Tweet!</button></a>
                 </div>
             </div>
