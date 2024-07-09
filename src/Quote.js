@@ -31,7 +31,9 @@ class Quote extends Component {
             .catch(error => console.log('Error: ' + error));
     }
 
-
+    componentDidMount() {
+        this.getQuote();
+    }
 
     render() {
         return (
