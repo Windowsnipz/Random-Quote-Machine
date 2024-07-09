@@ -8,7 +8,7 @@ class Quote extends Component {
     }
 
     getQuote() {
-
+        
     }
 
 
