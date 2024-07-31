@@ -37,7 +37,7 @@ class Quote extends Component {
 
     render() {
         return (
-            <div className="quote-box">
+            <div id="quote-box">
                 <h1 id="text">"{this.state.quote}"</h1>
                 <h5 id="author">- {this.state.author}</h5>
                 <div id="input-wrapper">
