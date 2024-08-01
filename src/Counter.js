@@ -1,4 +1,4 @@
-import { Component, useState } from "react";
+import React, { Component } from 'react';
 
 class Counter extends Component {
     state = {
